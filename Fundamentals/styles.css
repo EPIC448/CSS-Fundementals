@@ -15,10 +15,10 @@ a:link {
     color: purple;
   }
 
-  . wrapper {
+   wrapper {
     margin: 0 auto;
     width:  600px;
-    background: burlywood;
+    background: #ccc;
   }
 
   header, footer {
@@ -27,9 +27,42 @@ a:link {
     color: #fff;
   }
 
-
+   
   section{
     padding: 10px;
   }
 
   /* Where the magic happens */
+
+  #Box1{
+    float: left;
+    background: gold;
+    width: 33.333%;
+  
+  }
+
+  #Box2{
+  float: left;
+  background: brown;
+  width: 33.333%;
+
+  }
+
+  #Box3{
+    float: left;
+    background: orange;
+    width: 33.333%;
+
+    
+  }
+
+
+footer {
+  clear: both;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
