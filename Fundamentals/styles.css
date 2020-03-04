@@ -14,3 +14,22 @@ a:link {
   a:visited {
     color: purple;
   }
+
+  . wrapper {
+    margin: 0 auto;
+    width:  600px;
+    background: burlywood;
+  }
+
+  header, footer {
+    padding: 11px;
+    background: purple;
+    color: #fff;
+  }
+
+
+  section{
+    padding: 10px;
+  }
+
+  /* Where the magic happens */
