@@ -28,9 +28,9 @@ a:link {
   }
 
    
-  section{
+  /* section{
     padding: 10px;
-  }
+  } */
 
   /* Where the magic happens */
 
@@ -65,4 +65,51 @@ footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+img{
+  display: block;
+  float: left;
+  padding: 12px;
+  margin: 0 30px 10 px 0
+}
+
+.image{
+ clear:both
+}
+
+section{
+  background: #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 400px
+
+}
+
+article{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 10px
+}
+
+#rap article {
+  float: left;
+  background: aqua;
+}
+
+#country article{
+  float: right;
+  background: limegreen;
+}
+
+/* Helps to insure that the artiles stays in the grey box */
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+
 }
