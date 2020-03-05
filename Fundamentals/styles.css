@@ -106,10 +106,54 @@ article{
 /* Helps to insure that the artiles stays in the grey box */
 .clearfix:after {
   content: "";
-  display: block;
+  display: flow-root;
   clear: both;
   visibility: hidden;
   height: 0;
   line-height: 0;
+
+}
+
+/* positioning to give Fixed Properties of element */
+ #pet, #car, #leather, #school {
+  margin: 11px;
+  padding: 20px;
+  background: pink;
+  width: 500px;
+  background-image: url(https://media.giphy.com/media/26u42gAFROFb0VyCI/giphy.gif);
+
+}
+
+/* div{
+  width: 100px;
+  padding: 5px;
+  border: 1px solid black
+} */
+
+
+#pet{
+  position: relative;
+  top: 20px;
+  left: 50px;
+  background: rosybrown;
+}
+
+
+#car{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background:peru;
+}
+
+#school{
+  position: fixed;
+  top: 0px;
+  right: 120px;
+  background: blueviolet;
+}
+
+#leather{
+  position: relative;
 
 }
