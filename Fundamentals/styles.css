@@ -214,3 +214,13 @@ article{
   width: 30%;
   vertical-align: top;
 }
+
+
+/*  Regards to Flex row */
+
+.flexrow {
+  display: flex;
+}
+.flexcol {
+  flex: 1;
+}
