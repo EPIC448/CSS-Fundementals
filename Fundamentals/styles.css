@@ -195,4 +195,15 @@ article{
   }
 
 
+  /* Refering to id= flex-column */
+  /*In this basic example, we float .col left and and apply widths to classes that define 2 different column types.*/
+  .col {
+    float: left;
+}
+.col-1 {
+  width: 66.66%;
+}
+.col-2 {
+  width: 33.33%;
+}
 
