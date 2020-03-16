@@ -207,3 +207,10 @@ article{
   width: 33.33%;
 }
 
+/* Using inline for column */
+
+.col {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
